@@ -66,3 +66,14 @@ This problem cannot be solved using a linear model, making it ideal to demonstra
 ```bash
 git clone git@github.com:AdityaGaur19/Neural-Network-using-TensorFlow-Low-Level-API-.git
 cd Neural-Network-using-TensorFlow-Low-Level-API-
+
+Step: 0 Loss: 0.25
+Step: 2000 Loss: ...
+Step: 4000 Loss: ...
+...
+
+Predicted Output:
+[[~0]
+ [~1]
+ [~1]
+ [~0]]
