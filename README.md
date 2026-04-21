@@ -32,4 +32,37 @@ This repository demonstrates how a simple feedforward neural network can be impl
 
 ---
 
-## Project Structure
+
+---
+
+## How It Works
+
+1. Input data (XOR dataset) is defined manually  
+2. Placeholders are created for inputs and outputs  
+3. Weights and biases are initialized  
+4. A hidden layer with sigmoid activation is used  
+5. Output layer produces final predictions  
+6. Loss is computed using Mean Squared Error  
+7. Model is trained using Gradient Descent  
+8. Predictions are printed after training  
+
+---
+
+## XOR Problem
+
+| Input | Output |
+|------|--------|
+| 0, 0 |   0    |
+| 0, 1 |   1    |
+| 1, 0 |   1    |
+| 1, 1 |   0    |
+
+This problem cannot be solved using a linear model, making it ideal to demonstrate neural network capabilities.
+
+---
+
+## Installation & Setup
+
+```bash
+git clone git@github.com:AdityaGaur19/Neural-Network-using-TensorFlow-Low-Level-API-.git
+cd Neural-Network-using-TensorFlow-Low-Level-API-
